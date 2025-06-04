@@ -6,7 +6,7 @@ app = FastAPI()
 @app.get("/")
 async def welcome():
     try:
-        return{"message" : "TNAKT"}
+        return{"message" : "TNAKkT"}
     except Exception as e:
         print(f'Exception : {e}')
         raise HTTPException(status_code = 500 , detail = str(e))
@@ -18,3 +18,4 @@ async def Bienvenue():
     except Exception as e:
         print(f'Exception : {e}')
         raise HTTPException(status_code = 500 , detail = str(e))
+    
